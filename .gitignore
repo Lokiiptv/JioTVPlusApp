@@ -1,0 +1,65 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Keystore files
+*.jks
+*.keystore
+app/keystore.properties
+
+# Log/Cache files
+/app/build/
+/*/build/
+*.log
+
+# Gradle
+.gradle
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Signing configs
+signing.properties
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.iws
+*.ipr
+.idea/*
+!.idea/codeStyles/
+!.idea/runConfigurations/
+
+# Google Services (Firebase, etc.)
+google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Version control
+vcs.xml
+
+# Local scripts / secrets
+local.properties
+*.env
+
+# Release output
+/dist/
